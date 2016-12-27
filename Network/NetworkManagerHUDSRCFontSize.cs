@@ -1,4 +1,9 @@
-﻿using System;
+﻿/*
+  . origin file:
+    . https://bitbucket.org/Unity-Technologies/networking/src/9de5ac646bb972bd4e89958395354d52eb48234f/Runtime/NetworkManagerHUD.cs?at=5.4&fileviewer=file-view-default
+    
+*/
+using System;
 using System.ComponentModel;
 
 #if ENABLE_UNET
@@ -18,7 +23,6 @@ namespace UnityEngine.Networking
     [SerializeField]
     public int offsetY;
 
-    public int percentSize;
     // Runtime variable
     bool m_ShowServer;
 
